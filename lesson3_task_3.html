@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+		function startScript() {
+			var i = 0,
+				result = '<b>Результат:</b> ';
+
+			for (i = 0; i <= 9; result+=i+'; ', i++) {
+				// здесь пусто
+			}
+
+			document.getElementById('pasteResult').innerHTML = result;
+		}
+	</script>
+</head>
+<body>
+    
+    <h2>Урок №3</h2>
+
+    <h3>Задача 3</h3>
+    <p>
+        Вывести с помощью цикла for числа от 0 до 9, не используя тело цикла. Выглядеть это должно так:
+for(…){// здесь пусто}
+    </p>
+
+<button onclick="startScript();" type="button"
+        style="background-color:rgb(106, 240, 73);margin:auto;display:block">Запуск выполнения задачи
+</button>
+<hr>
+<div id="pasteResult">
+</div>
+
+</body>
+</html>
